@@ -1,10 +1,11 @@
 version: 0.0
 os: linux
-files:
-  - source: index.html
-    destination: /var/www/html
 hooks:
   ApplicationStart:
     - location: start_application
       timeout: 300
+files:
+  - source: index.html
+    destination: /var/www/html
+
 
