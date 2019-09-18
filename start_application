@@ -1,2 +1,3 @@
 #!/bin/bash
+rm -fr /var/www/html/index.html
 cp -fr index.html /var/www/html/
