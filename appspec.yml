@@ -4,8 +4,8 @@ hooks:
   ApplicationStart:
     - location: start_application
       timeout: 300
-files:
-  - source: index.html
-    destination: /var/www/html
+# files:
+  # - source: index.html
+    # destination: /var/www/html
 
 
