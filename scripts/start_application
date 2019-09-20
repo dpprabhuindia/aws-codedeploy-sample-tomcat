@@ -1,2 +1,0 @@
-#!/bin/bash
-cp -fr index.html /var/www/html/
